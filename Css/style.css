@@ -19,7 +19,12 @@ body {
     border: none;
 }
 .font{
-   
+   font-size: 26px;
+   font-weight: 600;
+}
+.info{
+    font-weight: 500;
+    font-size: 21px;
 }
 
 button {
@@ -34,12 +39,29 @@ img {
     /* padding-left: 1rem; */
     
 }
-.text{
-    color: rgb(136,138,152);
+#text{
+    color: rgb(155, 156, 165);
 }
-button{
-    border-radius: 50px;
+#price{
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
 }
+.btn{
+    border-radius: 15px;
+    height: 60px;
+    font-size: 18px;
+ 
+}
+#amount{
+    border-radius: 20px;
+
+}
+.interest,.rate{
+        font-size:20px;
+        font-weight: 400;
+}
+
 /* button:hover{
     border: 2px solid white;
     z-index: 1;
@@ -50,23 +72,37 @@ button{
     z-index: 1;
     
 }
+#year1{
+    border: 2px solid white;
+}
 
 .text{
     color:#6c757d;
 }
 .container{
     border: 3px solid rgb(94, 92, 121);
+ 
 }
 img{
     /* transform: skewY(8deg); */
 }
-@media only screen and (max-width:384px) and (min-width:347px) {
+@media only screen and (max-width:398px) and (min-width:347px) {
     .btn {
-      font-size: 13px; /* Adjust the font size */
+      font-size: 14px; /* Adjust the font size */
     }
     .btn:hover{
-        font-size: 10px;
+        font-size: 12px;
       }
+      #price{
+        font-size: 20px;
+      }
+      .btn{
+       
+        height: 50px;
+       
+     
+    }
+
   }
   @media only screen and (max-width:347px) and (min-width:320px) {
     .btn {
@@ -76,6 +112,16 @@ img{
     .btn:hover{
         font-size: 10px;
       }
+      #price{
+        font-size: 20px;
+      }
+      .btn{
+       
+        height: 50px;
+       
+     
+    }
+
   }
 @media (max-width:320px) {
 
@@ -86,9 +132,19 @@ img{
     .btn:hover{
         font-size: 8px;
       }
+      #price{
+        font-size: 20px;
+      }
+      .btn{
+       
+        height: 40px;
+       
+     
+    }
+
 
 }
-@media only screen and (max-width:520px) and (min-width:px)
-@media (max-width:520px) {
+@media only screen and (max-width:520px) and (min-width:384px)
+ {
   
 }
